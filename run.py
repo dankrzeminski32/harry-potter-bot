@@ -1,15 +1,14 @@
 import asyncio
 import discord
-from discord.ext import commands, tasks
-from config import (
-    DISCORD_BOT_TOKEN,
-    PATH_TO_BIRTHDAY_QUOTES,
-)
+from discord.ext import commands
+from config import DISCORD_BOT_TOKEN
+
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
 bot = commands.Bot(command_prefix=".hp ", intents=intents, help_command=None)
+
 
 async def load_extensions():
     extensions = []

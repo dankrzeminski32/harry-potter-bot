@@ -1,0 +1,6 @@
+config.py
+__pycache__
+venv/
+.vscode/
+launch.json
+bot.log

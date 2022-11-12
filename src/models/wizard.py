@@ -1,5 +1,5 @@
 from src.models.db import Base
-from sqlalchemy import Column, Integer, String, Date, BigInteger, Boolean, extract
+from sqlalchemy import Column, Integer, String
 
 
 class Wizard(Base):

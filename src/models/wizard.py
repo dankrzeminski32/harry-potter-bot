@@ -3,6 +3,7 @@ from sqlalchemy import Column, Integer, String, Date, BigInteger, Boolean, extra
 
 
 class Wizard(Base):
+    __tablename__ = "wizards"
     id = Column(Integer, primary_key=True)
     house_id = Column(Integer)
     pet_id = Column(Integer)

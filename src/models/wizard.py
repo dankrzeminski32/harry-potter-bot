@@ -1,4 +1,4 @@
-from models.db import Base
+from src.models.db import Base
 from sqlalchemy import Column, Integer, String, Date, BigInteger, Boolean, extract
 
 

@@ -25,5 +25,7 @@ def session_scope():
 
 
 def recreateDB():
+    from src.models import wizard
+
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
